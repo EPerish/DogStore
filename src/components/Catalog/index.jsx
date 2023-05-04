@@ -4,6 +4,7 @@ import { ProductCard } from "../ProductCard";
 
 export const Catalog = () => {
   const [data, setData] = useState({ total: 0, products: [] });
+  
   useEffect(() => {
     const fetchDatas = async () => {
       const responce = await fetch("https://api.react-learning.ru/products", {

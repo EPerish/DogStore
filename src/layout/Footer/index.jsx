@@ -1,9 +1,11 @@
 export const Footer = () => {
   return (
-    <>
-      <div>
-        <p>Hello Footer!</p>
-      </div>
-    </>
+    <footer>
+      <ul>
+        <li>Футер</li>
+        <li>Футер</li>
+        <li>Футер</li>
+      </ul>
+    </footer>
   );
 };

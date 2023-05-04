@@ -4,15 +4,15 @@ import { Footer } from "./layout/Footer";
 import { Catalog } from "./components/Catalog";
 
 function App() {
+
   return (
-    <>
+    <div className="App">
       <Header />
-      <main>
-        <Catalog />
-      </main>
+      <Catalog />
       <Footer />
-    </>
-  );
-}
+    </div>
+     );
+  };
+
 
 export default App;
